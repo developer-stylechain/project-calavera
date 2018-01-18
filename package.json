@@ -1,0 +1,30 @@
+{
+  "name": "project-calavera",
+  "version": "1.0.0",
+  "description": "A simple starting skeleton for common web projects. Bring your own frameworks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schalkneethling/project-calavera.git"
+  },
+  "keywords": [
+    "nodejs",
+    "boilerplate",
+    "projects",
+    "dotfiles",
+    "automation"
+  ],
+  "author": "Schalk Neethling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schalkneethling/project-calavera/issues"
+  },
+  "homepage": "https://github.com/schalkneethling/project-calavera#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "inquirer": "^3.3.0"
+  }
+}
