@@ -23,7 +23,9 @@
     "url": "https://github.com/schalkneethling/project-calavera/issues"
   },
   "homepage": "https://github.com/schalkneethling/project-calavera#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0"
+  },
   "dependencies": {
     "inquirer": "^3.3.0"
   }

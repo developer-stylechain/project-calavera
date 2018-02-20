@@ -1,0 +1,17 @@
+{
+    "projectName": "project-calavera",
+    "projectOwner": "Schalk Neethling",
+    "files": ["README.md"],
+    "imageSize": 100,
+    "commit": true,
+    "contributors": [
+        {
+            "login": "schalkneethling",
+            "name": "Schalk Neethling",
+            "avatar_url":
+                "https://avatars3.githubusercontent.com/u/10350960?s=460&v=4",
+            "profile": "https://github.com/schalkneethling",
+            "contributions": ["code", "doc", "test"]
+        }
+    ]
+}
