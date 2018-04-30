@@ -1,16 +1,16 @@
 {
-    "projectName": "project-calavera",
-    "projectOwner": "Schalk Neethling",
+    "projectName": "<project-name>",
+    "projectOwner": "<author-name>",
     "files": ["README.md"],
     "imageSize": 100,
     "commit": true,
     "contributors": [
         {
-            "login": "schalkneethling",
-            "name": "Schalk Neethling",
+            "login": "<github-login>",
+            "name": "<contributor-name>",
             "avatar_url":
                 "https://avatars3.githubusercontent.com/u/10350960?s=460&v=4",
-            "profile": "https://github.com/schalkneethling",
+            "profile": "https://github.com/<contributor-name>",
             "contributions": ["code", "doc", "test"]
         }
     ]

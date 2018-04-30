@@ -1,32 +1,51 @@
 {
-  "name": "project-calavera",
-  "version": "1.0.0",
-  "description": "A simple starting skeleton for common web projects. Bring your own frameworks.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/schalkneethling/project-calavera.git"
-  },
-  "keywords": [
-    "nodejs",
-    "boilerplate",
-    "projects",
-    "dotfiles",
-    "automation"
-  ],
-  "author": "Schalk Neethling",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/schalkneethling/project-calavera/issues"
-  },
-  "homepage": "https://github.com/schalkneethling/project-calavera#readme",
-  "devDependencies": {
-    "babel-core": "^6.26.0"
-  },
-  "dependencies": {
-    "inquirer": "^3.3.0"
-  }
+    "name": "project-calavera",
+    "version": "0.0.0-semantically-released",
+    "description":
+        "A simple, configurable starting skeleton for common web projects. Bring your own frameworks.",
+    "main": "index.js",
+    "scripts": {
+        "test": "",
+        "calavera": "node index.js",
+        "cz": "git-cz",
+        "travis-deploy-once": "travis-deploy-once",
+        "semantic-release": "semantic-release"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/schalkneethling/project-calavera.git"
+    },
+    "keywords": [
+        "nodejs",
+        "boilerplate",
+        "projects",
+        "dotfiles",
+        "automation",
+        "generator"
+    ],
+    "author": "Schalk Neethling",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/schalkneethling/project-calavera/issues"
+    },
+    "homepage": "https://github.com/schalkneethling/project-calavera#readme",
+    "devDependencies": {
+        "commitizen": "2.9.6",
+        "cz-conventional-changelog": "2.1.0",
+        "eslint": "4.19.1",
+        "semantic-release": "^15.1.7",
+        "travis-deploy-once": "^5.0.0"
+    },
+    "dependencies": {
+        "fs-extra": "5.0.0",
+        "npm": "6.0.0"
+    },
+    "calavera": {
+        "all-contributors": true
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
 }

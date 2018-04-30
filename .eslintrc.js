@@ -1,12 +1,15 @@
 module.exports = {
     env: {
-        browser: true,
-        es6: true
+        es6: true,
+        node: true
+    },
+    parserOptions: {
+        ecmaVersion: 8
     },
     extends: 'eslint:recommended',
     rules: {
         'no-global-assign': 2,
-        indent: [2, 4],
+        indent: [2, 4, { SwitchCase: 1 }],
         'linebreak-style': [2, 'unix'],
         quotes: [2, 'single'],
         semi: [2, 'always'],
@@ -21,7 +24,7 @@ module.exports = {
         'no-console': [
             'error',
             {
-                allow: ['error']
+                allow: ['error', 'info']
             }
         ],
         'one-var-declaration-per-line': [2, 'always'],
