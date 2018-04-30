@@ -25,6 +25,11 @@ async function fillCatacomb() {
                 writeFile('.eslintrc');
                 dependecies = addDependency('eslint', dependecies);
                 break;
+            case 'stylelint':
+                writeFile('.stylelintrc');
+                writeFile('.stylelintignore');
+                dependecies = addDependency('stylelint', dependecies);
+                break;
             default:
                 console.error(
                     `No configuration or skeleton match found for ${config}`
