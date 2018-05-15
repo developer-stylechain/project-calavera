@@ -1,9 +1,21 @@
-# Project Calavera
+# Name of the project
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[Read more here about best practices](https://github.com/jehna/readme-best-practices)
 
-[//]: # "Uncomment to use ~ [![Build Status](https://travis-ci.org/mdn/interactive-examples.svg?branch=master)](https://travis-ci.org/mdn/interactive-examples)"
+## Installing / Getting started
 
-[//]: # "For more shields see https://shields.io/"
+## Configuration
 
-A simple starting skeleton for common web projects. Bring your own frameworks.
+## Developing
+
+### Building
+
+### Deploying / Publishing
+
+## Features
+
+## Contributing
+
+## Links
+
+## Licensing
