@@ -1,8 +1,7 @@
 {
     "name": "project-calavera",
     "version": "0.0.0-semantically-released",
-    "description":
-        "A simple, configurable starting skeleton for common web projects. Bring your own frameworks.",
+    "description": "A simple, configurable starting skeleton for common web projects. Bring your own frameworks.",
     "main": "index.js",
     "scripts": {
         "test": "",
