@@ -30,7 +30,7 @@ Next, you need to tell Calavera what you want added to your project. There are c
 }
 ```
 
-1.  Specify individual dependencies.
+## 1. Specify individual dependencies.
 
 With this option you can add one or more dependencies to your project by explicitly specifying just what you need.
 
@@ -58,7 +58,7 @@ Run the following command to install dependencies: npm i -D --save-exact babel-c
 
 Copy/paste an run the command. Once complete, you are done.
 
-2.  Using bundles
+## 2. Using bundles
 
 Calavera also supports the notion of bundles. Currently there are two bundles you can choose from:
 
