@@ -3,10 +3,13 @@
     "version": "0.0.0-semantically-released",
     "description":
         "A simple, configurable starting skeleton for common web projects. Bring your own frameworks.",
-    "main": "index.js",
+    "bin": {
+        "calavera": "./bin/calavera.js"
+    },
+    "main": "calavera.js",
     "scripts": {
         "test": "",
-        "calavera": "node index.js",
+        "calavera": "node calavera.js",
         "cz": "git-cz",
         "travis-deploy-once": "travis-deploy-once",
         "semantic-release": "semantic-release"
