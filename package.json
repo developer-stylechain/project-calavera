@@ -40,9 +40,6 @@
         "fs-extra": "5.0.0",
         "npm": "6.0.0"
     },
-    "calavera": {
-        "commonjs": true
-    },
     "config": {
         "commitizen": {
             "path": "./node_modules/cz-conventional-changelog"
