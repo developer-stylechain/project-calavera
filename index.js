@@ -16,7 +16,9 @@ const COMMON = [
     '.stylelintrc',
     '.stylelintignore'
 ];
+const COMMON_JS = ['.babelrc', '.browserslistrc'];
 const COMMON_DEPENDECIES = ['eslint', 'prettier', 'sass-lint', 'stylelint'];
+const COMMON_JS_DEPENDECIES = ['babel-cli', 'babel-preset-env'];
 
 async function fillCatacomb() {
     const calaveraConfig = await getConfig();
@@ -31,6 +33,13 @@ async function fillCatacomb() {
                     dependecies
                 );
                 break;
+            case 'babeljs':
+                writeFiles(COMMON_JS);
+                dependecies = addDependencies(
+                    COMMON_JS_DEPENDECIES,
+                    dependecies
+                );
+                break;
             case 'code-of-conduct':
                 writeFile('CODE-OF-CONDUCT.md');
                 break;
@@ -40,6 +49,13 @@ async function fillCatacomb() {
             case 'common':
                 writeFiles(COMMON);
                 dependecies = addDependencies(COMMON_DEPENDECIES, dependecies);
+                break;
+            case 'commonjs':
+                writeFiles(COMMON.concat(COMMON_JS));
+                dependecies = addDependencies(
+                    COMMON_DEPENDECIES.concat(COMMON_JS_DEPENDECIES),
+                    dependecies
+                );
                 break;
             case 'prettier':
                 writeFile('.prettierrc');
