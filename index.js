@@ -1,8 +1,22 @@
 'use strict';
 
-const { addDependency, getNPMInstallCmd } = require('./lib/utils');
+const {
+    addDependency,
+    addDependencies,
+    getNPMInstallCmd
+} = require('./lib/utils');
 const { getConfig } = require('./lib/config');
-const { writeFile } = require('./lib/fileUtils');
+const { writeFile, writeFiles } = require('./lib/fileUtils');
+
+const COMMON = [
+    'CODE-OF-CONDUCT.md',
+    '.eslintrc.js',
+    '.prettierrc',
+    '.sasslintrc',
+    '.stylelintrc',
+    '.stylelintignore'
+];
+const COMMON_DEPENDECIES = ['eslint', 'prettier', 'sass-lint', 'stylelint'];
 
 async function fillCatacomb() {
     const calaveraConfig = await getConfig();
@@ -17,17 +31,33 @@ async function fillCatacomb() {
                     dependecies
                 );
                 break;
+            case 'code-of-conduct':
+                writeFile('CODE-OF-CONDUCT.md');
+                break;
+            case 'contribute-json':
+                writeFile('contribute.json');
+                break;
+            case 'common':
+                writeFiles(COMMON);
+                dependecies = addDependencies(COMMON_DEPENDECIES, dependecies);
+                break;
             case 'prettier':
                 writeFile('.prettierrc');
                 dependecies = addDependency('prettier', dependecies);
                 break;
             case 'eslint':
-                writeFile('.eslintrc');
+                writeFile('.eslintrc.js');
                 dependecies = addDependency('eslint', dependecies);
                 break;
+            case 'readme':
+                writeFile('README.md');
+                break;
+            case 'sass-lint':
+                writeFile('.sasslintrc');
+                dependecies = addDependency('sass-lint', dependecies);
+                break;
             case 'stylelint':
-                writeFile('.stylelintrc');
-                writeFile('.stylelintignore');
+                writeFiles(['.stylelintrc', '.stylelintignore']);
                 dependecies = addDependency('stylelint', dependecies);
                 break;
             default:

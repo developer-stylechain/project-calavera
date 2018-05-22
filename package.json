@@ -40,8 +40,7 @@
         "npm": "6.0.0"
     },
     "calavera": {
-        "all-contributors": true,
-        "stylelint": true
+        "common": true
     },
     "config": {
         "commitizen": {

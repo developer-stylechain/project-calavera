@@ -1,16 +1,9 @@
 {
-  "name": "project-calavera",
-  "description": "A simple starting skeleton for common web projects. Bring your own frameworks.",
-  "repository": {
-    "url": "https://github.com/schalkneethling/project-calavera/",
-    "license": "MIT"
-  },
-  "keywords": [
-    "boilerplate",
-    "web",
-    "project",
-    "template",
-    "dotfiles",
-    "automation"
-  ]
+    "name": "<project-name>",
+    "description": "<project-description>",
+    "repository": {
+        "url": "<license-url>",
+        "license": "MIT"
+    },
+    "keywords": ["your", "keywords", "here"]
 }
