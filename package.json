@@ -1,15 +1,14 @@
 {
     "name": "project-calavera",
     "version": "0.0.0-semantically-released",
-    "description":
-        "A simple, configurable starting skeleton for common web projects. Bring your own frameworks.",
+    "description": "A simple, configurable starting skeleton for common web projects. Bring your own frameworks.",
     "bin": {
         "calavera": "./lib/calavera.js"
     },
     "main": "./lib/calavera.js",
     "scripts": {
         "test": "",
-        "calavera": "node calavera.js",
+        "calavera": "node ./lib/calavera.js",
         "cz": "git-cz",
         "travis-deploy-once": "travis-deploy-once",
         "semantic-release": "semantic-release"
@@ -42,6 +41,9 @@
     "dependencies": {
         "fs-extra": "5.0.0",
         "npm": "6.0.0"
+    },
+    "calavera": {
+        "commonjs": true
     },
     "config": {
         "commitizen": {
