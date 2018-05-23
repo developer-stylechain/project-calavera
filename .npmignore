@@ -1,7 +1,7 @@
 node_modules
-.eslintrc.js
-.gitignore
-.prettierrc
-.travis.yml
-CODE-OF-CONDUCT.md
-package-lock.json
+/.eslintrc.js
+/.gitignore
+/.prettierrc
+/.travis.yml
+/CODE-OF-CONDUCT.md
+/package-lock.json
