@@ -24,7 +24,7 @@ module.exports = {
         'no-console': [
             'error',
             {
-                allow: ['error']
+                allow: ['error', 'info']
             }
         ],
         'one-var-declaration-per-line': [2, 'always'],
