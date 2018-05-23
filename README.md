@@ -8,7 +8,15 @@ To start with, you will need to have Nodejs installed. You can find instructions
 
 Your next stop is to ensure that your project has a `package.json` file in the root of the project. If your project does not already have one, you can easily create one using the `npm init` command from your command line/terminal.
 
-With all of the above in place, you are ready to start using Calavera. First thing is to add Calavera to your project and register it as a dev dependency. Run the following command.
+With all of the above in place, you are ready to start using Calavera.
+
+If you are using NPM version 5.2.0(run `npm -v` to find your version) or higher, all you need to do is, choose a configuration, add it to your `package.json` and run the following:
+
+```
+npx project-calavera
+```
+
+If you are not on npm@5.2.0+ then you will need to follow the below instructions. First thing is to add Calavera to your project and register it as a dev dependency. Run the following command.
 
 ```
 npm i -D --save-exact project-calavera
