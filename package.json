@@ -4,9 +4,9 @@
     "description":
         "A simple, configurable starting skeleton for common web projects. Bring your own frameworks.",
     "bin": {
-        "calavera": "./bin/calavera.js"
+        "calavera": "./lib/calavera.js"
     },
-    "main": "calavera.js",
+    "main": "./lib/calavera.js",
     "scripts": {
         "test": "",
         "calavera": "node calavera.js",

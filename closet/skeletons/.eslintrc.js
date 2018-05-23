@@ -4,6 +4,9 @@ module.exports = {
         es6: true
     },
     extends: 'eslint:recommended',
+    parserOptions: {
+        ecmaVersion: 8
+    },
     rules: {
         'no-global-assign': 2,
         indent: [2, 4, { SwitchCase: 1 }],
