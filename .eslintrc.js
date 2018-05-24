@@ -31,6 +31,7 @@ module.exports = {
         'new-cap': 2
     },
     globals: {
+        __dirname: true,
         console: true,
         expect: true,
         exports: true,

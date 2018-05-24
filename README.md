@@ -16,13 +16,15 @@ If you are using NPM version 5.2.0(run `npm -v` to find your version) or higher,
 npx project-calavera
 ```
 
-If you are not on npm@5.2.0+ then you will need to follow the below instructions. First thing is to add Calavera to your project and register it as a dev dependency. Run the following command.
+### npm@5.1.x and older
+
+If you are not on npm@5.2.0+ then read onward. First thing is to add Calavera to your project, and register it as a dev dependency. Run the following command.
 
 ```
 npm i -D --save-exact project-calavera
 ```
 
-This will install the project locally and add an entry to your `devDependencies` config.
+This will install the project locally and add an entry in `devDependencies` inside `package.json`.
 
 ## Configuration
 
