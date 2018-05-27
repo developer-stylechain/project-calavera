@@ -10,7 +10,7 @@ Your next stop is to ensure that your project has a `package.json` file in the r
 
 With all of the above in place, you are ready to start using Calavera.
 
-If you are using NPM version 5.2.0(run `npm -v` to find your version) or higher, all you need to do is, choose a configuration, add it to your `package.json` and run the following:
+If you are using NPM version 5.2.0(run `npm -v` to find your version) or higher, all you need to do is, [choose a configuration](#configuration), add it to your `package.json` and run the following:
 
 ```
 npx project-calavera
