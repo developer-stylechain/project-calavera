@@ -45,7 +45,6 @@ This configuration is useful for most common web projects.
 
 This will add the following files to your project:
 
-*   .eslintrc.js
 *   .prettierrc
 *   .sasslintrc
 *   .stylelintrc
@@ -56,12 +55,11 @@ This will add the following files to your project:
 When Calavera completes writing the above files, it will output the `npm` command you need to run in order to install the required dependencies. It will be of the form:
 
 ```
-npm i -D --save-exact eslint prettier sass-lint stylelint
+npm i -D --save-exact prettier sass-lint stylelint
 ```
 
 Which will then install the following `devDependencies`
 
-*   [eslint](https://www.npmjs.com/package/eslint)
 *   [prettier](https://www.npmjs.com/package/prettier)
 *   [sass-lint](https://www.npmjs.com/package/sass-lint)
 *   [stylelint](https://www.npmjs.com/package/stylelint)
@@ -82,6 +80,7 @@ This can either be used in conjunction with `common-web` or on it’s own if you
 
 This will add the following files to your project:
 
+*   .eslintrc.js
 *   .babelrc
 *   .browserslistrc
 
@@ -90,8 +89,9 @@ This will add the following files to your project:
 When Calavera completes writing the above files, it will output the `npm` command you need to run in order to install the required dependencies. It will be of the form:
 
 ```
-npm i -D --save-exact babel-cli babel-preset-env
+npm i -D --save-exact babel-cli babel-preset-env eslint
 ```
 
 *   [babel-cli](https://www.npmjs.com/package/babel-cli)
 *   [babel-preset-env](https://github.com/babel/babel/tree/master/packages/babel-preset-env)
+*   [eslint](https://www.npmjs.com/package/eslint)
