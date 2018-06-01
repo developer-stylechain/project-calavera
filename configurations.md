@@ -2,9 +2,9 @@
 
 Calavera also supports the notion of bundles. The following bundles are currently available:
 
-*   colab
-*   common
-*   commonjs
+*   [colab](#colab)
+*   [common-web](#common-web)
+*   [commonjs](#commonjs)
 
 ## colab
 
@@ -66,7 +66,7 @@ Which will then install the following `devDependencies`
 *   [sass-lint](https://www.npmjs.com/package/sass-lint)
 *   [stylelint](https://www.npmjs.com/package/stylelint)
 
-### commonjs
+## commonjs
 
 This can either be used in conjunction with `common-web` or on it’s own if you project is purely JavaScript based.
 
