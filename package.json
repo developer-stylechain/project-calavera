@@ -1,54 +1,57 @@
 {
-    "name": "project-calavera",
-    "version": "0.0.0-semantically-released",
-    "description":
-        "A simple, configurable starting skeleton for common web projects. Bring your own frameworks.",
-    "bin": {
-        "calavera": "./lib/calavera.js"
-    },
-    "main": "./lib/calavera.js",
-    "scripts": {
-        "test": "",
-        "calavera": "node ./lib/calavera.js",
-        "cz": "git-cz",
-        "travis-deploy-once": "travis-deploy-once",
-        "semantic-release": "semantic-release"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/schalkneethling/project-calavera.git"
-    },
-    "keywords": [
-        "nodejs",
-        "boilerplate",
-        "projects",
-        "dotfiles",
-        "automation",
-        "generator"
-    ],
-    "author": "Schalk Neethling",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/schalkneethling/project-calavera/issues"
-    },
-    "homepage": "https://github.com/schalkneethling/project-calavera#readme",
-    "devDependencies": {
-        "commitizen": "2.10.1",
-        "cz-conventional-changelog": "2.1.0",
-        "eslint": "4.19.1",
-        "semantic-release": "15.6.0",
-        "travis-deploy-once": "5.0.0"
-    },
-    "dependencies": {
-        "fs-extra": "6.0.1",
-        "npm": "6.1.0"
-    },
-    "calavera": {
-        "commonjs": true
-    },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
-        }
+  "name": "project-calavera",
+  "version": "0.0.0-semantically-released",
+  "description": "A simple, configurable starting skeleton for common web projects. Bring your own frameworks.",
+  "bin": {
+    "calavera": "./lib/calavera.js"
+  },
+  "main": "./lib/calavera.js",
+  "scripts": {
+    "test": "",
+    "calavera": "node ./lib/calavera.js",
+    "cz": "git-cz",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schalkneethling/project-calavera.git"
+  },
+  "keywords": [
+    "nodejs",
+    "boilerplate",
+    "projects",
+    "dotfiles",
+    "automation",
+    "generator"
+  ],
+  "author": "Schalk Neethling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schalkneethling/project-calavera/issues"
+  },
+  "homepage": "https://github.com/schalkneethling/project-calavera#readme",
+  "devDependencies": {
+    "commitizen": "2.10.1",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "4.19.1",
+    "semantic-release": "15.6.0",
+    "travis-deploy-once": "5.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "6.0.1",
+    "npm": "6.1.0",
+    "snyk": "^1.88.0"
+  },
+  "calavera": {
+    "commonjs": true
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "snyk": true
 }
