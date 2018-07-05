@@ -36,9 +36,9 @@
   "devDependencies": {
     "commitizen": "2.10.1",
     "cz-conventional-changelog": "2.1.0",
-    "eslint": "4.19.1",
+    "eslint": "5.0.1",
     "semantic-release": "15.6.0",
-    "travis-deploy-once": "5.0.0"
+    "travis-deploy-once": "5.0.1"
   },
   "dependencies": {
     "fs-extra": "6.0.1",
