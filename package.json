@@ -42,7 +42,7 @@
     },
     "dependencies": {
         "fs-extra": "6.0.1",
-        "npm": "^6.1.0",
+        "npm": "^6.6.0",
         "snyk": "^1.88.0"
     },
     "calavera": {
