@@ -1,0 +1,7 @@
+{
+  "format": "prettier --write \"src/**/*.{js,css,json}\"",
+  "format:check": "prettier --list-different \"src/**/*.{js,css,json}\"",
+  "lint": "eslint \"src/**/*.js\"",
+  "parcel:build": "parcel build src/index.html",
+  "parcel:dev": "parcel src/index.html"
+}
