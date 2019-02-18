@@ -12,7 +12,7 @@
     "cz": "git-cz",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
-    "snyk-protect": "snyk test --file=./package.json",
+    "snyk-protect": "snyk protect --file=./package.json",
     "prepare": "npm run snyk-protect"
   },
   "repository": {
