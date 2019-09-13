@@ -11,9 +11,7 @@
     "calavera": "node ./lib/calavera.js",
     "cz": "git-cz",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release",
-    "snyk-protect": "snyk protect --file=./package.json",
-    "prepare": "npm run snyk-protect"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -42,8 +40,7 @@
   },
   "dependencies": {
     "fs-extra": "8.0.1",
-    "npm": "^6.1.0",
-    "snyk": "^1.88.1"
+    "npm": "^6.1.0"
   },
   "calavera": {
     "commonjs": true
@@ -52,6 +49,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "snyk": true
+  }
 }
