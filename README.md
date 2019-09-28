@@ -28,7 +28,7 @@ This will install the project locally and add an entry in `devDependencies` insi
 
 ## Configuration
 
-Next, you need to tell Calavera what you want added to your project. You can find all the relevant information regarding the available bundles in the [configurations doc](configurations.md). Once you have chosen your bundle(s), add a new block to your `package.json` file. For example:
+Next, you need to tell Calavera what you want added to your project. You can find all the relevant information regarding the available bundles in the [configurations doc](CONFIGURATION.md). Once you have chosen your bundle(s), add a new block to your `package.json` file. For example:
 
 ```
 "dependencies": {
