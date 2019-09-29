@@ -10,7 +10,7 @@ Your next stop is to ensure that your project has a `package.json` file in the r
 
 With all of the above in place, you are ready to start using Calavera.
 
-If you are using NPM version 5.2.0(run `npm -v` to find your version) or higher, all you need to do is, [choose a configuration](configurations.md), add it to your `package.json` and run the following:
+If you are using NPM version 5.2.0(run `npm -v` to determine your version) or higher, all you need to do is, choose a configuration, add it to your `package.json` and run the following:
 
 ```
 npx project-calavera
@@ -28,7 +28,19 @@ This will install the project locally and add an entry in `devDependencies` insi
 
 ## Configuration
 
-Next, you need to tell Calavera what you want added to your project. You can find all the relevant information regarding the available bundles in the [configurations doc](CONFIGURATION.md). Once you have chosen your bundle(s), add a new block to your `package.json` file. For example:
+Next, you need to tell Calavera what you want added to your project. Once you have chosen your individual items or bundle(s), add a new block to your `package.json` file. For example:
+
+### Individual dependencies
+
+```
+calavera: {
+    "babeljs": true,
+    "code-of-conduct": true,
+    "eslint": true
+}
+```
+
+### Bundle configurations
 
 ```
 "dependencies": {
@@ -41,20 +53,6 @@ Next, you need to tell Calavera what you want added to your project. You can fin
 }
 ```
 
-## Specify individual dependencies.
-
-With this option you can add one or more dependencies to your project by explicitly specifying just what you need.
-
-For example:
-
-```
-calavera: {
-    "babeljs": true,
-    "code-of-conduct": true,
-    "eslint": true
-}
-```
-
 Next run:
 
 ```
@@ -64,7 +62,7 @@ npm run calavera
 This will add the required dot-files needed as well as a `.md` file in the case of the code of conduct. Once the command completes, it will output the `npm` command you should run to install the required dependencies:
 
 ```
-Run the following command to install dependencies: npm i -D --save-exact babel-cli babel-preset-env eslint
+Run the following command to install your dependencies: npm i -D --save-exact babel-cli babel-preset-env eslint
 ```
 
 Copy/paste an run the command. Once complete, you are of to the races.

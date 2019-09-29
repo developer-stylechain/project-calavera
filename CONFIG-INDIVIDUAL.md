@@ -4,7 +4,7 @@
 
 From the docs:
 
-"A mighty, modern linter that helps you avoid errors and enforce conventions in your styles."
+> A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
 
 To add `stylelint` linting to your project, add the following to your `package.json`:
 
@@ -33,11 +33,43 @@ Adding `stylelint` adds the following `devDependencies`:
 - [stylelint](https://github.com/stylelint/stylelint)
 - [stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended)
 
+## Stylelint for Sass
+
+From the docs:
+
+> A collection of SCSS specific linting rules for stylelint (in a form of a plugin).
+
+To add Sass linting support to your project, add the following to your `package.json`:
+
+```
+...
+"calavera": {
+    "sasslint": true
+}
+```
+
+### Skeletons
+
+This adds the following files to your project:
+
+- .stylelintrc
+- .stylelintignore // this ignores anything in css/libs/
+
+The `stylelintrc` configurations simply extends [`stylelint-config-recommended-scss`](https://github.com/kristerkari/stylelint-config-recommended-scss).
+
+### Dev dependencies
+
+Adding `sasslint` adds the following `devDependencies`:
+
+- [stylelint](https://github.com/stylelint/stylelint)
+- [stylelint-scss](https://github.com/kristerkari/stylelint-scss)
+- [stylelint-config-recommended-scss](https://github.com/kristerkari/stylelint-config-recommended-scss)
+
 ## Prettier
 
 From the docs:
 
-"Prettier is an opinionated code formatter"
+> Prettier is an opinionated code formatter
 
 To add `Prettier` to your project, add the following to your `package.json`
 
