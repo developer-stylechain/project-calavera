@@ -7,7 +7,7 @@
   },
   "main": "./lib/calavera.js",
   "scripts": {
-    "test": "jest",
+    "test": "",
     "calavera": "node ./lib/calavera.js",
     "cz": "git-cz",
     "travis-deploy-once": "travis-deploy-once",
