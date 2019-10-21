@@ -37,7 +37,7 @@
     "eslint": "6.4.0",
     "jest": "24.9.0",
     "mock-fs": "4.10.1",
-    "semantic-release": "15.13.24",
+    "semantic-release": "15.13.27",
     "travis-deploy-once": "5.0.11"
   },
   "dependencies": {
