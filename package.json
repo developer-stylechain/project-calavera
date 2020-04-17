@@ -41,7 +41,7 @@
     "travis-deploy-once": "5.0.11"
   },
   "dependencies": {
-    "fs-extra": "8.1.0",
+    "fs-extra": "9.0.0",
     "signale": "1.4.0"
   },
   "calavera": {
