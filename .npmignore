@@ -1,8 +1,7 @@
 node_modules
 .github
-.eslintrc.js
 .gitignore
-.prettierrc
-.travis.yml
-CODE-OF-CONDUCT.md
-yarn.json
+./.eslintrc.js
+./.prettierrc
+./CODE-OF-CONDUCT.md
+yarn.lock
