@@ -32,24 +32,12 @@
   },
   "homepage": "https://github.com/schalkneethling/project-calavera#readme",
   "devDependencies": {
-    "commitizen": "4.1.2",
-    "cz-conventional-changelog": "3.2.0",
     "eslint": "7.1.0",
     "jest": "26.0.1",
-    "mock-fs": "4.12.0",
-    "semantic-release": "17.0.8",
-    "travis-deploy-once": "5.0.11"
+    "mock-fs": "4.12.0"
   },
   "dependencies": {
     "fs-extra": "9.0.0",
     "signale": "1.4.0"
-  },
-  "calavera": {
-    "commonjs": true
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
