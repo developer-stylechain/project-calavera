@@ -8,10 +8,7 @@
   "main": "./lib/calavera.js",
   "scripts": {
     "test": "jest",
-    "calavera": "node ./lib/calavera.js",
-    "cz": "git-cz",
-    "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "calavera": "node ./lib/calavera.js"
   },
   "repository": {
     "type": "git",
