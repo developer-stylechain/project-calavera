@@ -1,5 +1,7 @@
 # project-calavera
 
+[![Documentation Status](https://readthedocs.org/projects/project-calavera/badge/?version=latest)](https://project-calavera.readthedocs.io/?badge=latest)
+
 A simple starting skeleton for common web projects. Bring your own frameworks.
 
 ## Set-up
