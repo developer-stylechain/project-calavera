@@ -8,6 +8,7 @@
   "main": "./lib/calavera.js",
   "scripts": {
     "test": "jest",
+    "test:dev": "jest --watch",
     "calavera": "node ./lib/calavera.js"
   },
   "repository": {
