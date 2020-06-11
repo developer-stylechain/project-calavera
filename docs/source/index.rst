@@ -8,6 +8,7 @@ Configurations
    :maxdepth: 1
 
    configs/prettier
+   configs/css
 
 
 
