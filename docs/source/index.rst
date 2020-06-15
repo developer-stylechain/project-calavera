@@ -9,6 +9,7 @@ Configurations
 
    configs/prettier
    configs/css
+   configs/sass
 
 
 

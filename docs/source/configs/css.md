@@ -2,7 +2,7 @@
 
 The CSS config adds the required configurations files and configuration for [Stylelint](https://stylelint.io/). By default it also enables the `stylelint-config-recommended`(https://github.com/stylelint/stylelint-config-recommended) and `stylelint-a11y`(https://github.com/YozhikM/stylelint-a11y) Stylelint extensions.
 
-To add the `CSS` config to your project, add the following to your `package.json`
+To add the `CSS` config to your project, add the following to `package.json`
 
 ```
 ...
@@ -50,4 +50,4 @@ css/libs/
 - stylelint-a11y
 - stylelint-config-recommended
 
-Calavera will output the required command to run to install the above dependencies inside your project.
+Calavera will output the command you need to run to install the above dependencies inside your project.
