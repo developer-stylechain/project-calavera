@@ -4,7 +4,7 @@
 
 A simple starting skeleton for common web projects. Bring your own frameworks.
 
-[![Animated GIF of Calavera in Action](./docs/source/_static/calavera.gif)]
+![Animated GIF of Calavera in Action](./docs/source/_static/calavera.gif)
 
 ## Using Calavera
 
