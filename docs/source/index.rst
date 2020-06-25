@@ -10,6 +10,7 @@ Configurations
    configs/prettier
    configs/css
    configs/sass
+   configs/eslint
 
 
 
