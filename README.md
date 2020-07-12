@@ -44,7 +44,7 @@ npx project-calavera
 
 This will add the required dot-files to your project. Once the command completes, it will output the command you should run to install the required dependencies:
 
-> NOTE: Calavera by defaults prints the command for the Yarn dependency manager. If you prefer `NPM`, you can specify it as part of your Calavera config, for example:
+> NOTE: Calavera by default prints the command for the Yarn dependency manager. If you prefer `NPM`, you can specify it as part of your Calavera config, for example:
 >
 > ```
 > "calavera": {
