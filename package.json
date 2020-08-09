@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/schalkneethling/project-calavera#readme",
   "devDependencies": {
-    "eslint": "7.5.0",
+    "eslint": "7.6.0",
     "jest": "26.2.2",
     "mock-fs": "4.12.0"
   },
