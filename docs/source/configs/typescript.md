@@ -2,12 +2,15 @@
 
 The typescript config adds the required configurations files for [typescript](https://www.typescriptlang.org/).
 
-There are two configuration options based on defaults provided by [ysconfig bases](https://github.com/tsconfig/bases)
+There are three configuration options based on defaults provided by [tsconfig bases](https://github.com/tsconfig/bases)
 
 - Default recommended
 - Node 12 recommended
+- Transitional recommended
 
-To add the default `typescript` config for use in node Nodejs based projects, add the following to `package.json`
+To add the default `typescript` config for use in non-Nodejs based projects, add the following to `package.json`
+
+> NOTE: All config will also set the `outDir` to build
 
 ```
 ...
@@ -22,6 +25,15 @@ To add the Node 12 target `typescript` config , add the following to `package.js
 ...
 "calavera": {
     "typescript": "node"
+}
+```
+
+To add the transitional `typescript` config target which allow mixing of TypeScript and JavaScript files, add the following to `package.json`
+
+```
+...
+"calavera": {
+    "typescript": "transitional"
 }
 ```
 
