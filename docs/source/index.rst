@@ -1,6 +1,14 @@
 Welcome to Project Calavera's documentation!
 ============================================
 
+Contributing
+^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   contributing/index
+
 Configurations
 ^^^^^^^^^^^^^^
 
@@ -11,6 +19,7 @@ Configurations
    configs/css
    configs/sass
    configs/eslint
+   configs/typescript
 
 
 
