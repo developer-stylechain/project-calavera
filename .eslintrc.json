@@ -9,9 +9,7 @@
   "rules": {
     "no-console": 1
   },
-  "plugins": [
-    "import"
-  ],
+  "plugins": ["import"],
   "parserOptions": {
     "ecmaVersion": 2018
   },
