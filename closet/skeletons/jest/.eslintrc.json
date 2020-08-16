@@ -3,8 +3,7 @@
     "eslint:recommended",
     "plugin:import/errors",
     "plugin:jest/recommended",
-    "plugin:jest/style",
-    "prettier"
+    "plugin:jest/style"
   ],
   "rules": {
     "no-console": 1

@@ -19,6 +19,7 @@ Configurations
    configs/css
    configs/sass
    configs/eslint
+   configs/jest
    configs/typescript
 
 

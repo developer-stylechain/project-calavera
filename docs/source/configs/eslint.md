@@ -17,7 +17,7 @@ This adds the following files to the root of your project:
 
 - .eslintrc.json
 
-### .stylelintrc
+### .eslintrc.json
 
 ```
 {
