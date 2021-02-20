@@ -1,7 +1,7 @@
 name: publish-calavera
 on:
   push:
-    branches: [master]
+    branches: [main]
 jobs:
   all:
     name: publish-calavera
