@@ -1,7 +1,7 @@
 {
   "extends": ["eslint:recommended", "plugin:import/errors"],
   "rules": {
-    "no-console": 1
+    "no-console": ["error", { "allow": ["info", "error"] }]
   },
   "plugins": ["import"],
   "parserOptions": {
