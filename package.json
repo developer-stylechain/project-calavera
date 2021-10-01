@@ -1,6 +1,6 @@
 {
   "name": "project-calavera",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "A simple, configurable starting skeleton for common web projects. Bring your own frameworks.",
   "bin": {
     "calavera": "./lib/calavera.js"
