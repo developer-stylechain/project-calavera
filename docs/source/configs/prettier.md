@@ -17,7 +17,7 @@ To add `Prettier` to your project, add the following to your `package.json`
 
 This adds the following files to the root of your project:
 
-- .prettierrc
+- .prettierrc.json
 
 Calavera uses the default Prettier config. If you need to customise the defaults, you can find [relevant documentation on the Prettier website](https://prettier.io/docs/en/options.html).
 
