@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.1](https://www.github.com/project-calavera/project-calavera/compare/v3.2.0...v3.2.1) (2021-10-01)
+
+
+### Bug Fixes
+
+* do not output install cmd if no dependencies ([#371](https://www.github.com/project-calavera/project-calavera/issues/371)) ([7942711](https://www.github.com/project-calavera/project-calavera/commit/794271170798edbfbe48eedc6ca22ba2b4724148))
+
 ## [3.2.0](https://www.github.com/project-calavera/project-calavera/compare/v3.1.55...v3.2.0) (2021-10-01)
 
 
