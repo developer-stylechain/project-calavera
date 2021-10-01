@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.0](https://www.github.com/project-calavera/project-calavera/compare/v3.2.2...v3.3.0) (2021-10-01)
+
+
+### Features
+
+* prettier and editorconfig always added ([#377](https://www.github.com/project-calavera/project-calavera/issues/377)) ([d33963c](https://www.github.com/project-calavera/project-calavera/commit/d33963cab38d78f1c6ef980f72ce3847100d88ad))
+
 ### [3.2.2](https://www.github.com/project-calavera/project-calavera/compare/v3.2.1...v3.2.2) (2021-10-01)
 
 
