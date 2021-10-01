@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.2](https://www.github.com/project-calavera/project-calavera/compare/v3.2.1...v3.2.2) (2021-10-01)
+
+
+### Bug Fixes
+
+* bump ecma version ([#374](https://www.github.com/project-calavera/project-calavera/issues/374)) ([5c924d4](https://www.github.com/project-calavera/project-calavera/commit/5c924d41511094c83043097a79e6e97260903260))
+
 ### [3.2.1](https://www.github.com/project-calavera/project-calavera/compare/v3.2.0...v3.2.1) (2021-10-01)
 
 
