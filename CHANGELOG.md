@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.3.1](https://github.com/project-calavera/project-calavera/compare/v3.3.0...v3.3.1) (2022-04-17)
+
+
+### Bug Fixes
+
+* deps ~ switch to sass from node-sass-chokidar ([#459](https://github.com/project-calavera/project-calavera/issues/459)) ([d9ef268](https://github.com/project-calavera/project-calavera/commit/d9ef2688ab783487ff217f52515a4070dd16d163))
+* release - fix release ([#457](https://github.com/project-calavera/project-calavera/issues/457)) ([a84fa25](https://github.com/project-calavera/project-calavera/commit/a84fa25d55a26fdee26f02f730d8730c664bf628))
+
 ## [3.3.0](https://www.github.com/project-calavera/project-calavera/compare/v3.2.2...v3.3.0) (2021-10-01)
 
 
