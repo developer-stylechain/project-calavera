@@ -6,7 +6,4 @@ on:
     
 jobs:
   lint:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Super lint
-        uses: project-calavera/calavera-reusable-actions/.github/workflows/linter-js.yml@main
+    uses: project-calavera/calavera-reusable-actions/.github/workflows/linter-js.yml@main  
