@@ -1,0 +1,17 @@
+--- 
+env:
+  es6: true
+  node: true
+extends: 
+  - "eslint:recommended"
+  - "plugin:import/errors"
+parserOptions: 
+  ecmaVersion: 2021
+plugins: import
+rules: 
+  no-console: 
+    - error
+    - 
+      allow: 
+        - info
+        - error
