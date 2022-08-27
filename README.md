@@ -1,4 +1,5 @@
-<img width="501" alt="logo@2x" src="https://user-images.githubusercontent.com/10350960/187033763-4865bb4b-2c2b-4ace-a1d0-079d444c6b6a.png">
+![logo](https://user-images.githubusercontent.com/10350960/187038565-56aafb29-6f5f-427d-80f6-3ec505765e40.png)
+
 
 
 # project-calavera
