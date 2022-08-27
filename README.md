@@ -1,3 +1,6 @@
+<img width="501" alt="logo@2x" src="https://user-images.githubusercontent.com/10350960/187033763-4865bb4b-2c2b-4ace-a1d0-079d444c6b6a.png">
+
+
 # project-calavera
 
 [![Documentation Status](https://readthedocs.org/projects/project-calavera/badge/?version=latest)](https://project-calavera.readthedocs.io/?badge=latest)
