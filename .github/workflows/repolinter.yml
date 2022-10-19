@@ -3,7 +3,6 @@ on: [push]
 
 jobs:
   repo-lint:
-    if: github.repository == "project-calavera/project-calavera"
     name: "repolint"
     runs-on: ubuntu-latest
     steps:
