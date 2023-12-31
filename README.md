@@ -1,7 +1,3 @@
-![logo](https://user-images.githubusercontent.com/10350960/187038565-56aafb29-6f5f-427d-80f6-3ec505765e40.png)
-
-
-
 # project-calavera
 
 [![Documentation Status](https://readthedocs.org/projects/project-calavera/badge/?version=latest)](https://project-calavera.readthedocs.io/?badge=latest)
