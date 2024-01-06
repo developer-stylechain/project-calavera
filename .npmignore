@@ -1,8 +1,7 @@
 node_modules
-docs
 .github
 .gitignore
 ./.eslintrc.js
 ./.prettierrc
 ./CODE-OF-CONDUCT.md
-yarn.lock
+
